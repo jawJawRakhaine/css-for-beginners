@@ -1,15 +1,21 @@
+
+/* GENERAL SELECTOR */
 /* p ~ h1 {
     color: red;
 } */
 
+
+/* ADJACENT SELECTOR */
 /* .myP + h1 {
     color: red;
 } */
 
+/* CHILD SELECTOR */
 /* .baba > h1 {
     color: red;
 } */
 
+/* DESCENDANT SELECTOR */
 .baba h1 {
     color: red;
 }
